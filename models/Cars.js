@@ -1,8 +1,5 @@
 const mongoose = require('mongoose');
 const CarsSchema = new mongoose.Schema({
-    id: {
-        type:Number
-    },
     type:{
         type:String
     },
